@@ -10,7 +10,114 @@
 </head>
 
 <body>
+    
+    <header class="contenedor header opaco borde">
 
+        <div class="header__logo">
+            <a href="/index.html" class="header__logo--enlace"><img src="/img/insua logo final.png" alt="logo" class="header__logo--imagen""></a>
+        </div>
+
+        <nav class="header__navegacion">
+            <ul>
+                <li class="header__navegacion--enlace"><a href="index.html">Inicio</a></li>
+                <li class="header__navegacion--enlace"><a href="vino.html">Vinos</a></li>
+                <li class="header__navegacion--enlace"><a href="espumantes.html">Espumantes</a></li>
+                <li class="header__navegacion--enlace"><a href="combos.html">Combos</a></li>
+                <li class="header__navegacion--enlace"><a href="eventos.html">Eventos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenedor borde">
+        <h2>Contacto</h2>
+
+        <form action="" class="formulario" id="formulario">
+            <!-- grupo de usuario -->
+            <div class="formulario__grupo" id="grupo__usuario">
+                <label for="usuario" class="formulario__label">Usuario</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="JuanitoAlimaña">
+                    <i class="formularion__validacion-estado fa-solid fa-circle-xmark"></i>
+                </div>
+                <p class="formulario__input-error">El usuario tiene que ser  de 4 a 16 digitos y solo puede tener numeros letras y guion bajo</p>
+            </div>
+
+            <!-- grupo de nombre -->
+            <div class="formulario__grupo" id="grupo__nombre">
+                <label for="nombre" class="formulario__label">Nombre</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Juan Perez">
+                    <i class="formularion__validacion-estado fa-solid fa-circle-xmark"></i>
+                </div>
+                <p class="formulario__input-error">El usuario tiene que ser  de 4 a 16 digitos y solo puede tener numeros, letras y guion bajo</p>
+            </div>
+
+            <!-- grupo de contraseña -->
+            <div class="formulario__grupo" id="grupo__password">
+                <label for="password" class="formulario__label">Contraseña</label>
+                <div class="formulario__grupo-input">
+                    <input type="password" class="formulario__input" name="password" id="password">
+                    <i class="formularion__validacion-estado fa-solid fa-circle-xmark"></i>
+                </div>
+                <p class="formulario__input-error">La contraseña debde ser de 4 a 12 digitos</p>
+            </div>
+
+            <!-- grupo de contraseña 2 -->
+            <div class="formulario__grupo" id="grupo__password2">
+                <label for="password2" class="formulario__label">Repetir Contraseña</label>
+                <div class="formulario__grupo-input">
+                    <input type="password" class="formulario__input" name="password2" id="password2">
+                    <i class="formularion__validacion-estado fa-solid fa-circle-xmark"></i>
+                </div>
+                <p class="formulario__input-error">Ambas contraseñas deben ser iguales</p>
+            </div>
+
+            <!-- grupo de correo electronico -->
+            <div class="formulario__grupo" id="grupo__correo">
+                <label for="correo" class="formulario__label">Correo Electronico</label>
+                <div class="formulario__grupo-input">
+                    <input type="email" class="formulario__input" name="correo" id="correo" placeholder="Correo@correo.com">
+                    <i class="formularion__validacion-estado fa-solid fa-circle-xmark"></i>
+                </div>
+                <p class="formulario__input-error">El Correo solo puede tener numeros, puntos, letras, guion y guion bajo</p>
+            </div>
+
+            <!-- grupo de telefono -->
+            <div class="formulario__grupo" id="grupo__telefono">
+                <label for="telefono" class="formulario__label">Telefono</label>
+                <div class="formulario__grupo-input">
+                    <input type="tel" class="formulario__input" name="telefono" id="telefono" placeholder="11 2345 6789">
+                    <i class="formularion__validacion-estado fa-solid fa-circle-xmark"></i>
+                </div>
+                <p class="formulario__input-error">El Telefono solo puede contener numeros y el maximo son 14 digitos</p>
+            </div>
+
+            <!-- grupo terminos y condiciones -->
+            <div class="formulario__grupo" id="grupo__terminos">
+                <label class="formulario__label">
+                    <input type="checkbox" class="formulario__checkbox" name="terminos" id="terminos">Acepto los Terminos y Condiciones
+                </label>
+            </div>
+
+            <div class="formulario__mensaje" id="formulario__mensaje">
+                <p><i class="fa-solid fa-triangle-exclamation"></i> <b>Error:</b> Por favor llene el formulario Correctamente.</p>
+            </div>
+
+            <div class="formulario__grupo formulario__grupo-btn-enviar">
+                <button type="submit" class="formulario__btn">Enviar</button>
+                <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario Enviado Exitosamente!</p>
+            </div>
+
+        </form>
+    </main>
+
+    <footer class="contenedor footer borde">
+        <p> Consejo de seguridad: No realice pagos a desconocidos. Las ofertas y productos exihibios de este catálago son respondabilidades de <span class="palabraSpan">Insuawines</span></p>
+        <p class="nombreIntegrantes"><span class="palabraSpan">Desarrollado por:</span> Yully Bastidas, Jesus Peña y Alejandra Maldonado</p>
+    </footer>
+
+
+    <script src="/js/scrpts.js"></script>
    
 
 
