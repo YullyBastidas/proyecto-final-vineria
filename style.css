@@ -634,3 +634,101 @@ a:visited{
 
 
 }
+
+/*****EVENTOS*******/
+
+.contenedor{
+   
+    background-image:url(img/tomando-vino-brindis.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opacity: 0.7; */
+    margin: auto;
+    display: grid;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    height: 360px;
+    text-align: center;
+    color: rgb(250, 250, 250);
+}
+
+.contenedor h1 {
+    display: grid;
+    background: #587119;
+    font-size: 150px;
+    margin-bottom: 70px;
+    margin-top: 80px;
+    text-align: center;
+    font-family: Verdana;
+    mix-blend-mode: hard-light;
+
+}
+/* ---------animación de la palabra EVENTOS----------- */
+.animate__fadeInDown {
+    --animate-duration: 1s;
+    text-align: center ;
+    font-size: xx-large;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    animation: text 1s linear;
+    font-display: flex;
+   }
+
+/* ---------animación del título----------- */
+   .animate__fadeInRight {
+    --animate-duration: 1s;
+    text-align: center ;
+    font-size: 110;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    animation: text 1s linear;
+    font-family: Helvetica ;
+    font-display: flex;
+   }
+/* ---------animación de la foto----------- */
+
+   .animate__fadeInLeft {
+    --animate-duration: 1s;
+    text-align: center ;
+    font-size: 110;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    animation: text 1s linear;
+    font-family: Helvetica ;
+    font-display: flex;
+   }
+
+   .banner_nota1{
+    display: grid;
+    grid-template-columns: repeat (1, 5fr);
+    grid-template-rows: repeat (6, 5fr) ;
+    width: 90%;
+    max-width: 1000px;
+    text-align: center;  
+    margin: auto;
+    margin-right:;
+    height: 360px;
+    text-align: center;
+
+
+   }
+
+.banner_nota1 img{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+      
+}
+
+.nota{
+    text-align: justify;
+    font-family: Helvetica;
+    font-size: x-large;
+}
+
+/*-----------responsive eventos------*/
