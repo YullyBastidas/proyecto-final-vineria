@@ -623,6 +623,8 @@ a:visited{
     color:#b4ce53;
 }
 
+
+
 @media screen and (max-width: 1328px) {
    
 }
@@ -637,14 +639,14 @@ a:visited{
 
 /*****EVENTOS*******/
 
-.contenedor{
+.contenedor-eventos{
    
     background-image:url(img/tomando-vino-brindis.gif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     /* opacity: 0.7; */
-    margin: auto;
+    margin: 0 auto;
     display: grid;
     width: 90%;
     max-width: 1000px;
@@ -654,7 +656,7 @@ a:visited{
     color: rgb(250, 250, 250);
 }
 
-.contenedor h1 {
+.contenedor-eventos h1 {
     display: grid;
     background: #587119;
     font-size: 150px;
@@ -680,7 +682,7 @@ a:visited{
 /* ---------animación del título----------- */
    .animate__fadeInRight {
     --animate-duration: 1s;
-    text-align: center ;
+    text-align: center;
     font-size: 110;
     background-clip: text;
     -webkit-background-clip: text;
@@ -706,12 +708,11 @@ a:visited{
    .banner_nota1{
     display: grid;
     grid-template-columns: repeat (1, 5fr);
-    grid-template-rows: repeat (6, 5fr) ;
+    grid-template-rows: repeat (6, 5fr);
     width: 90%;
     max-width: 1000px;
     text-align: center;  
-    margin: auto;
-    margin-right:;
+    margin: 0 auto;
     height: 360px;
     text-align: center;
 
@@ -720,9 +721,7 @@ a:visited{
 
 .banner_nota1 img{
     width: 100%;
-    margin: auto;
-    margin-top: 30px;
-      
+    margin: 30px auto 0 auto;
 }
 
 .nota{
